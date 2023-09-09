@@ -1,4 +1,4 @@
-name: CI
+name: CI Python & Pandas
 on:
   push:
     branches: [ "main" ]
