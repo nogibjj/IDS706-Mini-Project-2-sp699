@@ -1,4 +1,4 @@
-![Python N Pandas CI](https://github.com/suim-park/Suim-Park-Mini-Project-2/actions/workflows/cicd.yml/badge.svg)
+![Python N Pandas CI](https://github.com/nogibjj/Suim-Park-Mini-Project-2/actions/workflows/cicd.yml/badge.svg)
 # IDS-706-Data-Engineering :computer:
 
 ### Mini Project 2</br>
