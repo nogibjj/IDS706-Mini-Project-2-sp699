@@ -1,10 +1,20 @@
-"""
-Test goes here
+# Test main.py
 
-"""
-
-from mylib.calculator import add
+from main import GDP
 
 
-def test_add():
-    assert add(1, 2) == 3
+def test_GDP():
+    GDP_data = {
+        "year": [2021, 2022, 2023],
+        "GDP rate": [2.8, 3.1, 3.0],
+        "GDP": ["1.637M", "1.73M", "1.83M"],
+    }
+
+    result = GDP(GDP_data)
+
+    max_value = max(result["GDP rate"])
+    assert max_value == 3.1
+
+
+if __name__ == "__main__":
+    test_GDP()
