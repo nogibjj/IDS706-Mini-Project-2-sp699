@@ -7,7 +7,7 @@ def test_people():
     people()
     num_col = count_col()
 
-    assert num_col == 2561
+    assert num_col == 2562
 
 
 if __name__ == "__main__":
