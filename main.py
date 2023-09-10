@@ -7,7 +7,7 @@ stat_df = pd.read_csv("Statistics_Test.csv")
 
 
 # Mean, Median, Standard Deviation
-def people(data):
+def people():
     age = stat_df["AGE"]
     age_mean = age.mean()
     age_median = age.median()
@@ -17,13 +17,13 @@ def people(data):
 
 
 # Count colums for test
-def count_col(data):
+def count_col():
     num_col = len(stat_df.columns)
     return num_col
 
 
 # Make a plot to Histogram of Age column
-def create_hist(data):
+def create_hist():
     plt.hist(stat_df["AGE"], bins=10, color="blue", edgecolor="white")
     plt.xlabel("AGE")
     plt.ylabel("Frequency")
