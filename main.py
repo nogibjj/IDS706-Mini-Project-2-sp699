@@ -22,4 +22,5 @@ def create_hist(data):
     plt.ylabel("Frequency")
     plt.title("Age Histogram")
     plt.show()
+    plt.savefig("age_hist.png")
     return
