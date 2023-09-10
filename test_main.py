@@ -1,18 +1,15 @@
 # Test main.py
 
-import main as count_col
-import main as count_row
+import main
 
 
 def test_count_col():
-    count_col()
-    num_col = count_col()
+    num_col = main.count_col()
     assert num_col == 6
 
 
 def test_count_row():
-    count_row()
-    num_row = count_row()
+    num_row = main.count_row()
     assert num_row == 15723
 
 
