@@ -1,6 +1,7 @@
 # Test main.py
 
-import main as count_col, count_row
+import main as count_col
+import main as count_row
 
 
 def test_count_col():
