@@ -1,12 +1,13 @@
 ![Python N Pandas CI](https://github.com/nogibjj/Suim-Park-Mini-Project-2/actions/workflows/cicd.yml/badge.svg)
 # IDS-706-Data-Engineering :computer:
 
-### Mini Project 2</br>
+### Mini Project 2 :page_facing_up:</br> 
 Mini project 2 repository contains Dockerfile, Github Actions, Makefile, README.md, requirements.txt, main.py and test_main.py.
 
 The files included in the second mini project are as follows:
 
-* `Makefile`: Installed the packages listed in the requirements.txt file, and configured the files to run properly and manage them as needed.</br>
+* `Makefile`: Installed the packages listed in the requirements.txt file, and configured the files to run properly and manage them as needed.</br></br>
+<img src="https://github.com/suim-park/Mini-Project-2/assets/143478016/e97d1c8b-4dad-45ad-a7f2-b901372711fc" width="470" height="330"/></br>
 
 * `Dockerfile`: Contains all the commands a user could call on the command line to assemble an image.</br>
 
@@ -15,7 +16,7 @@ The files included in the second mini project are as follows:
 * `requirements.txt`: Added the pandas and matplotlib package with specific version, which is 2.1.0 and 3.7.1.</br></br>
 <img src="https://github.com/suim-park/Mini-Project-2/assets/143478016/f80ed434-7d9c-47be-ad7d-079b71d1440c.png" width="150" height="65"/></br>
 
-* `githubactions`: Tested the code created using pandas to ensure that Git Actions runs properly. The test in 'test.py' checks that the number of rows and columns in the data match, so it confirms that the test has passed.</br></br>
+* `//githubactions`: Tested the code created using pandas to ensure that Git Actions runs properly. The test in 'test.py' checks that the number of rows and columns in the data match, so it confirms that the test has passed.</br></br>
 <img src="https://github.com/suim-park/Mini-Project-2/assets/143478016/08cc6065-1234-4a72-a991-a61cebd88d69.png" width="670" height="500"/></br>
 
 * `main.py`</br>
@@ -34,6 +35,6 @@ The files included in the second mini project are as follows:
 
 ------------------------
 
-* Summary of data</br>
-  : The results of the statistical analysis of the 'Statistics_Test.csv' data and the information about the Age histogram can be found in the following summary. I created the summary using Markdown in a Jupyter Notebook, and you can access it by clicking **[here](https://github.com/nogibjj/Suim-Park-Mini-Project-2/blob/main/Summary.ipynb)**.</br></br>
-  :exclamation: ***Jupyter Notebook cannot be opened directly on GitHub, so you must install the program and check it after installation.***
+* `Summary of data`</br>
+  : The results of the statistical analysis of the 'Statistics_Test.csv' data and the information about the Age histogram can be found in the following summary. I created the summary using Markdown in a Jupyter Notebook, and you can access it by clicking **[here](https://github.com/nogibjj/Suim-Park-Mini-Project-2/blob/main/Summary.md)**.</br></br>
+  :exclamation: ***Click on the link to go directly to the Summary.md.***
