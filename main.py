@@ -37,3 +37,7 @@ def create_hist():
     plt.savefig("age_hist.png")
     plt.show()
     return
+
+
+people()
+create_hist()
