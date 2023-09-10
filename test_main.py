@@ -1,11 +1,11 @@
 # Test main.py
 
-from main import people
-from main import count_col
+from main import people, count_col
 
 
 def test_people():
-    result = people()
+    people()
+    num_col = count_col()
 
     assert num_col == 2561
 
