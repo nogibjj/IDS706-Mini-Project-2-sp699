@@ -17,7 +17,7 @@ def people(data):
 
 # Make a plot to Histogram of Age column
 def create_hist(data):
-    plt.hist(df["AGE"], bins=10, color="blue", edgecolor="white")
+    plt.hist(stat_df["AGE"], bins=10, color="blue", edgecolor="white")
     plt.xlabel("AGE")
     plt.ylabel("Frequency")
     plt.title("Age Histogram")
