@@ -1,17 +1,14 @@
 # Test main.py
 
 from main import people
+from main import count_col
 
 
 def test_people():
     result = people()
 
-    plt.hist(stat_df["AGE"])
-    plt.show()
-
-    max_value = max(result["GDP rate"])
-    assert max_value == 3.1
+    assert num_col == 2561
 
 
 if __name__ == "__main__":
-    test_GDP()
+    test_people()
