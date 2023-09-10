@@ -16,10 +16,16 @@ def people():
     return
 
 
-# Count colums for test
+# Count columns for test
 def count_col():
     num_col = len(stat_df.columns)
     return num_col
+
+
+# Count rows for test
+def count_row():
+    num_row = len(stat_df)
+    return num_row
 
 
 # Make a plot to Histogram of Age column
