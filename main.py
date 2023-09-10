@@ -1,7 +1,7 @@
 # Main.py using pandas and matplotlib to set data and see some plot
 
 import pandas as pd
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 stat_df = pd.read_csv("Statistics_Test.csv")
 
@@ -28,6 +28,6 @@ def create_hist(data):
     plt.xlabel("AGE")
     plt.ylabel("Frequency")
     plt.title("Age Histogram")
-    plt.show()
     plt.savefig("age_hist.png")
+    plt.show()
     return
